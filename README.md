@@ -46,4 +46,4 @@ npm install svelte-imgcrop
 
 | Name | Desc |
 |--|--|
-| change | Crop success,params(imgData) |
+| change | Crop success,params(e) |
