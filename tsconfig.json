@@ -16,5 +16,5 @@
         "strictNullChecks": true,
         "noImplicitThis": false,
     },
-    "include": ["example", "src", "src/**.ts"]
+    "include": ["example", "example/**.ts", "src", "src/**.ts"]
 }
