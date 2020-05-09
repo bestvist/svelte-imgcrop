@@ -61,7 +61,7 @@
     { left: "0", width: "0", height: "0" }, // top
     { left: "0", width: "0" }, // right
     { top: "0", left: "0", width: "0", height: "0" }, // bottom
-    { width: "0" } // left:
+    { width: "0" } // left
   ];
 
   $: wrapStyle = `
