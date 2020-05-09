@@ -14,9 +14,7 @@ export default {
     output: { file: pkg.main, format: 'umd', name: 'svelte-imgcrop' },
     plugins: [
         typescript(),
-        svelte({
-            ...svelteConfig
-        }),
+        svelte({...svelteConfig}),
         resolve(),
         production && terser()
     ]
